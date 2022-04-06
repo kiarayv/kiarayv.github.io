@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<title>Document</title>
+</head>
+<body>
+	<div id="app" class="content">
+		<div class="block block--header animacion">
+			<img class="block__img" src="hwasa.jpg" alt="">
+			<div class="block__personal">
+				<h1 class="block__h1">Kiara Vicente</h1>
+				<p class="block__p">Tecnica superior en desarrollo web</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="block__section ">
+				<div class="block__section__element animacion--top">
+					<h2 class="element__h2">Informacion de Contacto</h2>
+					<ul class="element__ul">
+						<li class="element__ul__li">+54 9 1132534301</li>
+						<li class="element__ul__li">Buenos Aires, Gonzalez Catan</li>
+						<li class="element__ul__li">kiarayaelvicente89@gmail.com</li>
+					</ul>
+				</div>
+				<div class="block__section__element animacion--top">
+					<h2 class="element__h2">Sobre Mi</h2>
+					<p class="">
+						Soy una profesional responsable y eficiente en busca de un puesto dentro de su compañia.<br> 
+						Mi objetivo como desarrolladora es obtener experiencia en el área de industria <i><b>tech</b></i>  y poder ofrecer mis habilidades para ayudar y fortalezer el crecimiento de su empresa
+					</p>
+				</div>
+				<div class="block__section__element animacion--top">
+					<h2 class="element__h2">Habidades</h2>
+					<ul class="element__ul">
+						<li class="element__ul__li">Autodidacta</li>
+						<li class="element__ul__li">Trabajo en Equipo</li>
+						<li class="element__ul__li">Creativa</li>
+						<li class="element__ul__li">HTMl</li>
+						<li class="element__ul__li">CSS</li>
+						<li class="element__ul__li">Paquete Office</li>
+					</ul>
+				</div>
+				<div class="block__section__element animacion--top">
+					<h2 class="element__h2">idiomas</h2>
+					<ul class="element__ul">
+						<li class="element__ul__li">Spanish native</li>
+						<li class="element__ul__li">English A2</li>
+						<li class="element__ul__li">Portuguese B1</li>
+					</ul>
+				</div>
+			</div>
+			<div class="block__section  animacion--top--2">
+				<div class="block__section__element animacion--top">
+					<h2 class="element__h2">experiencia profesional</h2>
+					<div class="element__article">
+						<h3 class="element__article__h3"> Apura tinta</h3>
+						<p class="element__article__p element__article__p--fecha"> 12/02/2022 - actual</p>
+						<p class="element__article__p element__article__p--descripcion">
+							Desarrollo de sitio web dinamico dirigido al emprendimiento de una empresa pequeña en busqueda de la comercializacion digital.
+						</p>
+					</div>
+					<div class="element__article">
+						<h3 class="element__article__h3">Asistente de tatuador</h3>
+						<p class="element__article__p element__article__p--fecha"> 2020 - actual</p>
+						<p class="element__article__p element__article__p--descripcion">
+							- Personalizacion de tatuajes a medida del cliente segun sus peticiones <br><br>
+							- Elavoracion de cuadros para la decoracion interna del local y ambientes
+						</p>
+					</div>
+				</div>
+				<div class="block__section__element animacion--top">
+					<h2 class="element__h2">educacion</h2>
+
+					<div class="element__article">
+						<h3 class="element__article__h3">E.E.S.T Nº14</h3>
+						<p class="element__article__p element__article__p--fecha">14/03/2016- Actual</p>
+						<p class="element__article__p element__article__p--descripcion">
+							Estudiante de ultimo año en la tecnicatura de programacion, en la tecnica 14 de gonzales catan
+						</p>
+					</div>
+					<div class="element__article">
+						<h3 class="element__article__h3"> Primaria </h3>
+						<p class="element__article__p element__article__p--fecha"> 10/03/2009 - 30/11/2015</p>
+						<p class="element__article__p element__article__p--descripcion">
+							Educacion primaria completa en escuela 105 ubicada en Gonzalez Catan - La matanza.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+	window.sr = ScrollReveal();
+    sr.reveal('.animacion--bottom', {
+        delay: 0,
+        duration: 3000,
+        origin: 'bottom',
+        distance: '-500px'
+        
+    });  sr.reveal('.animacion--top', {
+        delay: 0,
+        duration: 3000,
+        origin: 'top',
+        distance: '-500px'
+       
+    });
+</script>
+
+</html>
